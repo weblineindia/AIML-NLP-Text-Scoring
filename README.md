@@ -1,11 +1,17 @@
-# AI ML - Text Keyword Match NLP
+# Sentence scoring using NLTK bleu score
 
-A Python based AI ML package for generating the best matching text from a paragraph for a given keyword/sentence.
+A Python based NLP package for generating the best matching text from a paragraph for a given keyword/sentence.
 A user can pass a keyword and a paragraph/text content throught the terminal and the paragraph undergoes cleaning process by eliminating special characters from the text,
 then preprocessing technique is applied to each sentences by removing stopwords and tokenizing it. 
 
-The sentence score is calculated by applying bleu_score. Here a cumulative bleu score is calculated for the sentences against the keyword input as reference.Then the best scored 3 sentences
-are displayed as output.
+The sentence score is calculated by applying bleu_score. Here a cumulative bleu score is calculated for the each sentences.The code helps in calculatuing the score of each sentences with reference to the input keyword and top scored 3 sentences are displayed as output.
+
+Regex used for removing special characters from text.<br/>
+NLTK stopwords for removing stopwords from sentence.<br/>
+NLTK word_tokenize used for tokenization of sentence.<br/>
+NLTK WordNetLemmatizer used for lemmatization of words.<br/>
+NLTK sentence_bleu used for sentence scoring.<br/>
+
 
 ## Table of contents
 
