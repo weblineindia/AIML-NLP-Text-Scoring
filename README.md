@@ -30,9 +30,9 @@ NLTK sentence_bleu used for sentence scoring.<br/>
 
 Prerequisites for running the code are:
 
-Python = 3.5 
+Python = 3.6.8
 
-nltk = 3.4
+nltk = 3.6.7
 
 or
 ```
